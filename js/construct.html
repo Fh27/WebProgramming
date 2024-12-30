@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+<style>
+    .first{
+        font-size: 30px;
+        color: pink;
+    }
+</style>
+</head>
+<body>
+    <p id="test" class="first"></p>
+    <script>
+        function Test(first,second){
+            this.first=first;
+            this.second=second;
+        }
+        const obj1=new Test("blue","Its'pink","black")
+        document.getElementById("test").innerHTML=obj1.second;
+    </script>
+</body>
+</html>

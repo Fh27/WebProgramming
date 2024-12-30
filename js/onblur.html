@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    //object event - onblur
+function myFunction() {
+  const x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+  const y = document.getElementById("fname1");
+  y.value = y.value.toUpperCase() ;
+
+}
+function colorfun(){
+   let boxy= document.getElementById("boxy")
+}
+</script>
+</head>
+<body>
+
+ <div style="background-color: aqua; width: 100%; height: 100%; ">
+     
+     Enter your name: <input style="width: 100%; border: 1px solid green;" type="text" id="fname" onblur="myFunction()">
+     Enter your Number: <input style="width: 100%; border: 1px solid green;" type="text" id="fname" onblur="myFunction()">
+     Enter your GID: <input style="width: 100%; border: 1px solid green;" type="text" id="fname" onblur="myFunction()">
+     Enter your Email: <input style="width: 100%; border: 1px solid green;" type="text" id="fname1" onblur="myFunction()">
+     
+    </div>
+    <div id="boxy" style="width: 100px; height: 100px; color: black; color: white;" onmouseleave="colorfun()">box</div>
+ <p style="background-color: black; color: aliceblue;text-align: center ; padding: 5px;">  &copy; claims from FH </p>
+</body>
+</html>

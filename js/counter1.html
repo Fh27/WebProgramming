@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo1">
+        count :
+    </p>
+    <button onclick="myfunc()">click to inc</button>
+<script>
+    function myfunc(){
+        let count=0;
+        count++;
+        document.getElementById("demo1").innerHTML=count
+    }
+</script>
+</body>
+</html>
